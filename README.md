@@ -22,7 +22,7 @@ The system ingests live NSE tick data via WebSocket, processes it through a Kafk
 
 - **Market:** NSE (National Stock Exchange of India) — Options & Equity Derivatives
 - **Approach:** Data pipeline → Analytics → Signal Engine → ML Layer → Broker Execution
-- **Brokers Supported:** Zerodha Kite Connect · Fyers v3
+- **Brokers Supported:** Zerodha Kite Connect · Fyers v3 · AngleOne
 - **Goal:** Build a system that systematically extracts edge from NSE options markets with strict risk controls
 
 ---
@@ -30,7 +30,7 @@ The system ingests live NSE tick data via WebSocket, processes it through a Kafk
 ## 📂 Project Structure
 
 ```
-nse-algo-trading/
+Indian-Stock-Option-Trading-System/
 │
 ├── 📦 Week 1 — Data Pipeline
 │   ├── data/
