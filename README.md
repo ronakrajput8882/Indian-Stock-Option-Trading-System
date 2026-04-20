@@ -1,4 +1,5 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=📈%20NSE%20Algo%20Trading%20System&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Production-Grade%20Options%20Trading%20Engine%20%7C%20FastAPI%20%2B%20Kafka%20%2B%20ML%20Signals%20%2B%20Broker%20Execution&descAlignY=60&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=📈%20Indian%20Stock%20Trading%20System&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Production-Grade%20Options%20Trading%20Engine%20%7C%20FastAPI%20%2B%20Kafka%20%2B%20ML%20Signals%20%2B%20Broker%20Execution&descAlignY=60&descAlign=50" width="100%"/>
+<div align="center">
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Async-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
@@ -9,6 +10,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-LSTM-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
 [![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](LICENSE)
 
+</div>
 ---
 
 ## 📌 Project Overview
