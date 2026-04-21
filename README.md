@@ -109,15 +109,30 @@ Indian-Stock-Option-Trading-System/
 ## 🔄 System Pipeline
 
 ```
-NSE WebSocket → Kafka Producer → Redis Writer → TimescaleDB
+                                NSE WebSocket
                                      ↓
-                              Analytics Engine
-                         (PCR · OI Velocity · IV % · Max Pain)
+                                Kafka Producer 
+                                     ↓    
+                                 Redis Writer
                                      ↓
-                           ML Signal Layer
-                    (LightGBM · LSTM · Meta-Ensemble)
+                                 TimescaleDB
                                      ↓
-                   Signal → Risk Check → Order Placement → Monitor → Exit
+                               Analytics Engine
+                      (PCR · OI Velocity · IV % · Max Pain)
+                                     ↓
+                              ML Signal Layer
+                       (LightGBM · LSTM · Meta-Ensemble)
+                                     ↓
+                                   Signal
+                                     ↓
+                                Risk Check
+                                     ↓
+                              Order Placement
+                                     ↓
+                                  Monitor
+                                     ↓
+                                    Exit
+
 ```
 
 1️⃣ **Tick Ingestion** — NSE WebSocket feed with auto-reconnect logic
