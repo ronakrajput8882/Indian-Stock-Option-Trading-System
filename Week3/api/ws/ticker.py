@@ -11,10 +11,3 @@ class TickerWebSocket:
             while True:
                 data = await websocket.recv()
                 print(json.loads(data))
-    
-    def run(self):
-        asyncio.run(self.connect())
-
-if __name__ == "__main__":
-    ticker = TickerWebSocket("wss://example.com/ticker")
-    ticker.run()
