@@ -170,7 +170,3 @@ class AnalyticsEngine:
         self._running = False
 
 
-if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)
-    engine = AnalyticsEngine()
-    asyncio.run(engine.run())
