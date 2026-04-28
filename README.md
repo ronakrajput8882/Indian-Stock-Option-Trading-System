@@ -417,7 +417,6 @@ The API will be live at `http://localhost:8000` · Docs at `http://localhost:800
 
 *If you found this useful, please ⭐ the repo!*
 
-> **Remember:** You are not building a trading tool. You are building a probabilistic decision engine competing with institutions that have spent millions on infrastructure, data, and talent. Every shortcut you take will be exploited by the market.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
