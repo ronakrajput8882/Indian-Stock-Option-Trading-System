@@ -176,15 +176,3 @@ class NSEWebSocket:
 
 # ── Entry point ───────────────────────────────────────────────────────────────
 
-async def main():
-    logging.basicConfig(level=logging.INFO)
-
-    def on_tick(tick: Tick):
-        log.info(f"TICK {tick.symbol}: {tick.ltp} | OI: {tick.oi}")
-
-    ws = NSEWebSocket(on_tick=on_tick)
-    await ws.start()
-
-
-if __name__ == "__main__":
-    asyncio.run(main())
