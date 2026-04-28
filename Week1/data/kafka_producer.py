@@ -11,8 +11,7 @@ from typing import Optional
 from confluent_kafka import Producer, KafkaException
 from confluent_kafka.admin import AdminClient, NewTopic
 
-from config.settings import settings
-from data.nse_websocket import NSEWebSocket, Tick
+
 
 log = logging.getLogger(__name__)
 
