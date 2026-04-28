@@ -121,15 +121,7 @@ class NSEKafkaPipeline:
             )
             self._last_log = now
 
-    async def run(self):
-        ensure_topics([settings.KAFKA_TICK_TOPIC, settings.KAFKA_OPTIONS_TOPIC])
-        ws = NSEWebSocket(on_tick=self.on_tick)
-        log.info("NSE → Kafka pipeline started")
-        try:
-            await ws.start()
-        finally:
-            self._producer.flush()
-            log.info("Pipeline stopped, Kafka flushed")
+    
 
 
 if __name__ == "__main__":
